@@ -10,6 +10,7 @@ public class TestSingleTon {
         System.out.println("EagerInitializedSingleton instance1: " + instance1.hashCode());
         System.out.println("EagerInitializedSingleton instance2: " + instance2.hashCode());
 
+
         StaticBlockSingleton instance3 = StaticBlockSingleton.getInstance();
         StaticBlockSingleton instance4 = StaticBlockSingleton.getInstance();
         System.out.println("StaticBlockSingleton instance3: " + instance3.hashCode());
