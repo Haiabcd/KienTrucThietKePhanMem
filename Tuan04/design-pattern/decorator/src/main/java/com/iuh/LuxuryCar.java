@@ -9,6 +9,6 @@ public class LuxuryCar  extends CarDecorator{
     @Override
     public void assemble(){
         car.assemble();
-        System.out.print(" Adding features of Luxury Car.");
+        System.out.print(" Thiết kế đẹp mắt.");
     }
 }

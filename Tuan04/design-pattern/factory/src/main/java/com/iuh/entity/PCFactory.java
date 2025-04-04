@@ -15,8 +15,9 @@ public class PCFactory implements ComputerAbstractFactory {
         this.cpu=cpu;
     }
 
+
     @Override
     public Computer createComputer() {
-        return new PC(ram,hdd,cpu);
+        return new PC(ram,hdd, cpu);
     }
 }
